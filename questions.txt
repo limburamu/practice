@@ -1,0 +1,10 @@
+1. Create a new number by joining two numbers(take multiple examples with numbers with varying digits 2, 3,4, 5, 6).
+for eg: n1 = 123  n2 = 789 the new number should n3 = 123789
+
+2. Generate binary number from a decimal number. for eg: 15 = 1111
+
+3. List all prime factor of a number. for eg: prime factors of 44 are 2 and 11.
+
+4. Check if a number is palindrome or not. for eg: 11211 is a palindrome
+
+5. Check if a string is palindrome or not. for eg: madam is a palindrome
