@@ -19,10 +19,10 @@ for(i = 0; i < a.length; i++)
 }
 console.log(n + " occurs " + maxcount + " times");    */
 
-var arr = [2, 4, 5, 7, 5, 9];
+var arr = [2, 4, 2, 5, 7, 5, 9];
 maxCount = 0;
 n = 0;
-function number(arr)
+function number(arr, n)
 {
     for(i = 0; i < arr.length; i++)
     {
@@ -40,4 +40,4 @@ function number(arr)
     }
     return maxCount;
 }
-console.log(number(arr));
+console.log(number(arr, 9));
