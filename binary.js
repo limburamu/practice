@@ -1,9 +1,14 @@
-num = 19;
-s = " ";
-while(num > 0)
+function binary(num)
 {
-    s = (num % 2 ) + s;
-    num = parseInt(num / 2);
+    var s = " ";
+    while(num > 0)
+    {
+        s = (num % 2) + s;
+        num = parseInt(num / 2);
+    }
+    return s;
 }
-console.log(s);
+console.log(binary(14));
+console.log(binary(4));
+console.log(binary(10));
 

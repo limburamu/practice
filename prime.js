@@ -1,18 +1,25 @@
-let n = 9;
-let flag = 1;
-for(i = 2; i < n; i++)
+function prime(num)
 {
-    if(n % i == 0)
+    var flag = 1, i;
+    for(i = 2; i < num; i++)
     {
-        console.log(i);
-        flag = 0;
-        break;
+        if(num % i == 0)
+        {
+            flag = 0;
+            break;
+        }
+    } 
+    if(flag == 1)
+    {
+        console.log(num + ' is a prime number');
     }
+    else
+    {
+        console.log(num + ' is not a prime number');
+    }   
+    return flag;
 }
-
-if(flag == 1)
-{
-    console.log(n + ' is a prime number');
-}else{
-    console.log(n + ' is composite number');
-}
+console.log(prime(17));
+console.log(prime(8));
+console.log(prime(9));
+console.log(prime(11));

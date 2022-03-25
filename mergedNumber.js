@@ -1,10 +1,12 @@
-let n1 = 123;
-let n2 = 789;
-s = 0;
-for(i = 0; i < 3; i++)
+function mergedNumber(n1, n2)
 {
-    s = (n1 * 10);
-    n1 = s;
-    r = s + n2
+    var s = 0, i, m;
+    for(i = 0; i < 3; i++)
+    {
+        s = (n1 * 10);
+        n1 = s;
+        m = s + n2;
+    }
+    return m;
 }
-console.log(r);
+console.log(mergedNumber(123, 789));
